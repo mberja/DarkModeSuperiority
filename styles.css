@@ -106,48 +106,51 @@
 
         }
 
-form {
-    display:inline-block;
-    text-align: left;
-}
+        form {
+            display:inline-block;
+            text-align: left;
+        }
 
 
-.form input[type=text]{
-    border-right: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid #727A7A;
-    background-color:#3d3b3c;
-    color: darkgray;
-    font-family: times;
-    height: 20px;
-    width: 350px;
+        .form input[type=text]{
+            border-right: 1px solid transparent;
+            border-left: 1px solid transparent;
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid #727A7A;
+            background-color:#3d3b3c;
+            color: darkgray;
+            font-family: times;
+            height: 20px;
+            width: 350px;
     
     
-}
+        }
 
-.form input[type=submit]{
-    height:35px;
-    width: 100px;
-    background-color: #727A7A;
-    font-size: 15px;
-    font-family: times;
-    width: 350px;
-}
+        .form input[type=submit]{
+            height:35px;
+            width: 100px;
+            background-color: #727A7A;
+            font-size: 15px;
+            font-family: times;
+            width: 350px;
+        }   
 
-.form textarea[type=message]{
-    border-right: 1px solid transparent;
-    border-left: 1px solid transparent;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid #727A7A;
-    background-color:#3d3b3c;
-    color: darkgray;
-    font-family: times;
-    height: 20px;
-    width: 350px;
-}
+        .form textarea[type=message]{
+            border-right: 1px solid transparent;
+            border-left: 1px solid transparent;
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid #727A7A;
+            background-color:#3d3b3c;
+            color: darkgray;
+            font-family: times;
+            height: 20px;
+            width: 350px;
+        }
 
-.form p{
-    text-align:left;
-    margin-left: 634px;
-}
+        .form p{
+            text-align:left;
+            margin-left: 632px;
+        }   
+
+            
+    
