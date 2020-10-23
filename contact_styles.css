@@ -1,0 +1,181 @@
+        body {
+            font-family: times, georgia;
+            margin-top: -50px;
+            background-color: #FFF1E6;
+        }
+        
+        #header {
+            margin-bottom: -50px;
+   }
+
+        
+        .navigation{
+            font-family: didot;
+            text-align: center;
+            padding: 10px;
+            font-size: 150%;
+            background-color: #B7B7A4;
+}
+
+        .navigation a{
+            text-decoration:none;
+        }
+/*
+
+        .navigation a::before {
+            content: '';
+            display: block;
+            height: 200px;
+            
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+            width: 0%;
+    
+            transition: all ease-in-out 250ms;
+        }
+
+        .navigation a:hover::before {
+            width:92%;
+        }
+*/
+
+
+        .main-nav>li{
+            display: inline-block;
+            padding: 10px 0px;
+            width: 150px;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .subnav {
+            display: none;
+            width: 150px;
+            list-style-type: none;
+            position: absolute;
+            border: 5px solid #A5A58D;
+            margin-top: 10px;
+            margin-left: 0px;
+            text-align: left;
+  
+        }
+
+        .subnav:before{
+            content: "";
+            width: 0px;
+            height:0px;
+            position: absolute; 
+
+        }
+
+        .subnav>li{
+            padding: 10px;
+            color: white;
+            margin-left: -40px;
+            background: #B7B7A4;
+            font-size: 20px;
+        }
+
+        .subnav a{
+            color: white;
+        }
+
+        .main-nav li:hover .subnav{
+            display: block;
+        }
+
+        .main-nav li:hover, .subnav li:hover {
+            background: #A5A58D;
+    }
+    
+
+
+/****************************************************/
+
+        #main {
+            background-color: #FFF1E6;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom:10px;
+            padding: 20px;
+            color: #727A7A;
+            min-height: 100px;
+            overflow: hidden;
+        }
+        
+        
+        #footer {
+            background-color: #C2C2C2;
+            height: 50px;
+
+            margin-top: 0px;
+            margin-bottom:10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 90%;
+        }
+        
+        .footer a:visited {
+            text-decoration: none;
+        }
+
+/****************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #B7B7A4;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B7B7A4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.formz {
+  border-radius: 5px;
+  background-color: #FFF1E6;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
