@@ -1,17 +1,12 @@
         body {
             font-family: times, georgia;
-            margin: 0;
+            margin-top: -50px;
             background-color: #FFF1E6;
         }
         
         #header {
-    
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 0px;
-            margin-bottom:10px;
-            height: 100px;
-        }
+            margin-bottom: -50px;
+   }
 
         
         .navigation{
@@ -57,7 +52,7 @@
 
         .subnav {
             display: none;
-            width: 200px;
+            width: 150px;
             list-style-type: none;
             position: absolute;
             border: 5px solid #A5A58D;
@@ -81,6 +76,10 @@
             margin-left: -40px;
             background: #B7B7A4;
             font-size: 20px;
+        }
+
+        .subnav a{
+            color: white;
         }
 
         .main-nav li:hover .subnav{
@@ -111,8 +110,7 @@
         #footer {
             background-color: #C2C2C2;
             height: 50px;
-            margin-left: 10px;
-            margin-right: 10px;
+
             margin-top: 0px;
             margin-bottom:10px;
             padding: 10px;
@@ -125,6 +123,7 @@
         }
         
         h1 {
+/*
             font-family: didot;
             font-size:250%;
             text-align: center;
@@ -134,6 +133,7 @@
             -webkit-transform: translateY(-50%);
             -ms-transform:translateY(-50%);
             transform:translateY(-50%);
+*/
             
 
         }
