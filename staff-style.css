@@ -1,0 +1,73 @@
+<script>
+$(document).ready(function()
+{
+   $('.creators').click(function()
+    {
+      $('.links').fadeToggle(400); 
+   });
+});
+</script>
+
+#creators {
+    position: relative;
+    left: 10vw;
+    top: 60px;
+    text-align: center;
+    width: 80vw;
+    margin-bottom: 60px;
+
+}
+
+.founder {
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 0px 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.founder:hover .portrait {
+    margin-top: -200px;
+    transition: all 0.8s ease;
+}
+
+.portrait {
+    border-radius: 100%;
+    display: block;
+    width: 196px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    transition: all 0.8s ease;
+    text-align: center;
+}
+
+.hover {
+    margin-top: 3px;
+    word-break: break-word;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #99998a;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 55px;
+    display: block;
+}
+
+.blurb {
+/*    font-family: 'Playfair Display', serif;*/
+    font-size: 16px;
+    font-weight: 100;
+/*    letter-spacing: 1px;*/
+    color: #3c3c3d; 
+    margin-top: 5px;
+    margin: 30px 30px 30px 30px;
+    display: block;
+}
