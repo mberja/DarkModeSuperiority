@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>philanthrotea - contact</title>  
     <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png"> 
-    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="contact_styles.css">
 </head>
     
 <body>
@@ -34,21 +34,29 @@
     </div>
     
     <!-- main --> 
-    <div id="main">
-        <center>
-        <div class="form">
-        <input type = "text" name = "" id = ""> 
-            
-        <input type = "text" name = "" id = "">
-                    
-            <textarea type="message" name='message' id='messahe' required='1' size="100" style = "height:100px"></textarea>
-
-
-
-            
-        <p><input type = "submit" value = "Submit"></p>    
+    <div id="main">    
+        <div class="formz">
+            <div style="text-align:center"><h2>leave a message..</h2>
+                <p>for any questions, concerns, and feedbacks</p>
+            </div>
+  
+            <div class="row">
+                <div class="column">
+                    <!-- <img src="/w3images/map.jpg" style="width:100%"> -->
+                </div>
+                <div class="column">
+                <!-- <form action="/action_page.php"> -->
+                <label for="fname">full name</label>
+                    <input type="text" id="fname" name="fullname" placeholder="full name">
+                <label for="lname">email address</label>
+                    <input type="text" id="lname" name="lastname" placeholder="email address">
+                <label for="subject">message</label>
+                    <textarea id="subject" name="subject" placeholder="message" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+                <!-- </form> -->
+                </div>
+            </div>
         </div>
-        </center>
     </div>
     
     <!-- footer --> 
