@@ -126,6 +126,7 @@
             font-family: 'Josefin Sans', sans-serif;
             font-size:40px;
             letter-spacing: 10px;
+            text-shadow:2px 2px 2px #B7B7A4;
             text-align: center;
             position: relative;
         }

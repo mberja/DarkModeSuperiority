@@ -39,39 +39,27 @@
     <!-- main --> 
     <div id="main">
         <h1>WELCOME</h1>
-        <h2> E S T A B L I S H E D &nbsp; I N &nbsp; 2 0 2 0 </h2><br/><br/>
-<!--
-        hi
-        <center><p style="font-size: 24px"> <b><span style="color: #808f8f">philanthrotea</span></b> is a non-profit</p></center>
-            
-        <center><p><i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</i></p></center>
--->
         
     <!-- slideshow -->
     <div class="slideshow">
         <div class="slide-content">
-            <img src="thai%20milk%20tea.png" style="width:10%; height: 10%">
-            <div class="caption">sample text</div>
+            <img src="images/leaves.jpg" style="width:100%">
+            <div class="caption">we use the finest ingredients</div>
         </div>
         
     <div class="slide-content">
-        <img src="matcha%20milk%20tea.png" style="width:20%">
-        <div class="caption">sample text</div>
+        <img src="images/pour.jpg" style="width:100%">
+        <div class="caption">we curate every drink with care</div>
     </div>
         
-    <!-- next/prev -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
+    <div class="slide-content">
+        <img src="images/teaslide.jpg" style="width:100%">
+        <div class="caption">we pride ourselves on providing our customers with a quality experience</div>
     </div>
         
-    <!-- dots -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-        
+    <h2> E S T A B L I S H E D &nbsp; I N &nbsp; 2 0 2 0 </h2><br/><br/>
+       
     </div>
     
     <!-- footer --> 
@@ -100,6 +88,6 @@
       slideIndex++;
       if (slideIndex > slides.length) {slideIndex = 1}
       slides[slideIndex-1].style.display = "block";
-      setTimeout(showSlides, 4000); // Change image every 4 seconds
-}
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
 </script>
