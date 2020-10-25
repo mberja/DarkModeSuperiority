@@ -1,5 +1,6 @@
         body {
-            font-family: times, georgia;
+            text-align: center; 
+            font-family: 'Josefin Sans', sans-serif;
             margin-top: -50px;
             background-color: #FFFFFF;
         }
@@ -126,6 +127,7 @@
             font-family: 'Josefin Sans', sans-serif;
             font-size:40px;
             letter-spacing: 10px;
+            text-shadow:2px 2px 2px #B7B7A4;
             text-align: center;
             position: relative;
         }
