@@ -1,10 +1,15 @@
 <!DOCTYPE html> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Playfair+Display&display=swap" rel="stylesheet">
+
 <html>
 <head>
     <meta charset="UTF-8">
     <title>philanthrotea - order</title> 
-    <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png"> 
+    <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png">
+    <link type="text/css" rel="stylesheet" href="styles.css">
     <link type="text/css" rel="stylesheet" href="contact_styles.css">
+
+
 </head>
     
 <body>
@@ -35,15 +40,16 @@
     <!-- main --> 
     <div id="main">
         <div class="formz">
-            <div style="text-align:center"><h2>order now</h2>
-                <p>order now order now order now</p>
+            <div style="text-align:center"><h1>order now!</h1>
+                <h2>all drinks are at a fixed price of $5.00 each + toppings</h2>
+                <h2>15% of proceeds will go towards the non-profit organization associated with your flavor</h2>
             </div>
   
             <div class="row">
                 <div class="column">
 
                     <!-- FLAVOR CHECKBOXES -->
-                    <h2>CHOOSE UR FLAVOR</h2>
+                    <h1>CHOOSE YOUR TEA FLAVOR</h1>
                     <img src="thai%20milk%20tea.png" style="width: 5%"> 
                     <input type="radio" id="boston_cares" name="flavor" value="BOSTON CARES - thai">
                     <label for="bc">BOSTON CARES - thai</label><br><br>
@@ -67,10 +73,10 @@
 
                     <img src="mango%20milk%20tea.png" style="width: 5%"> 
                     <input type="radio" id="n_dev" name="flavor" value="THE NEIGHBORHOOD DEVELOPERS - mango">
-                    <label for="neighborhood">THE NEIGHBORHOOD DEVELOPERS - mango</label><br><br>
+                    <label for="neighborhood">THE NEIGHBORHOOD DEVELOPERS - mango</label><br><br> 
                     
-                    <br>
-                    <h2>TOPPINGS AVAILABLE</h2> 
+                    <br><br />
+                    <h1>TOPPINGS AVAILABLE</h1>
                         <input type="checkbox" id="boba" name="boba" value="boba">
                         <label for="boba">boba</label>
                     
@@ -96,19 +102,18 @@
                 <div class="column">
 
                     <!-- ADD TO CART -->
-                    <h2>CART</h2>
+                    <h1>CART</h1>
                     <div id = "carted">
                         
                     </div>
                     <br><br /><br>
 
                     <input type="button" value="checkout">
-   
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="column">
+                    <p><i>*please refer to the bottom to see your receipt.</i></p>
+                    
+                    <br><br><br><hr><br><br><br>
+                    
+                    
                     <h2>ORDER SUMMARY</h2>
                     subtotal - 
                     <div id = ""></div> <hr>
@@ -116,11 +121,10 @@
                     <div id = ""></div> <hr>
                     total -
                     <div id = ""></div>
+   
                 </div>
-            
-            
-            
             </div>
+            
         </div>
     </div>
     
