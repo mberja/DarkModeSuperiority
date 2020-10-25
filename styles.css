@@ -123,20 +123,21 @@
         }
         
         h1 {
-/*
-            font-family: didot;
-            font-size:250%;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size:40px;
+            letter-spacing: 10px;
             text-align: center;
             position: relative;
-            color: #A5A58D;
-            top:50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform:translateY(-50%);
-            transform:translateY(-50%);
-*/
-            
-
         }
+
+        h2 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size:18px;
+            text-align: center;
+            position: relative;
+        }
+
+    
 
         form {
             display:inline-block;
