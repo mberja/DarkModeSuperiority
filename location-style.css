@@ -10,13 +10,14 @@ h2 {
     margin: auto;
     width: 100%;
     color: #ffffff;
+    font-size: 16px;
 }
 
 h2 span {
     letter-spacing: -1px;
     background: rgb(183, 183, 164);
     background: rgba(183, 183, 164, 0.9);
-    padding: 10px;
+    padding: 2px;
     border-radius: 25px;
 }
 
@@ -25,9 +26,9 @@ h2 span.spacer {
 }
 
 #container {
-    width: 656px;
+    position: relative;
     margin: auto;
-/*    margin-top: 5px;*/
+    margin-top: 5px;
 }
  
 #location {
@@ -105,7 +106,7 @@ h2 span.spacer {
     position: absolute;
 }
  
-.gotoblog {
+.googlemap {
     text-align: center;
     color: #222222;
     text-decoration: none;
@@ -118,7 +119,7 @@ h2 span.spacer {
     transition-duration: 0.5s;
 }
  
-.gotoblog a {
+.googlemap a {
     color: #222222;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -127,7 +128,7 @@ h2 span.spacer {
     transition-duration: 0.5s;
 }
  
-.gotoblog:hover {
+.googlemap:hover {
     background-color: #222222;
     color:#fff;
     -webkit-transition-duration: 0.5s;
@@ -137,7 +138,7 @@ h2 span.spacer {
     transition-duration: 0.5s;
 }
  
-.gotoblog a:hover{
+.googlemap a:hover{
     color:#fff;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -146,12 +147,12 @@ h2 span.spacer {
     transition-duration: 0.5s;
 }
  
-.name {
+.address {
     padding-top: 13px;
     text-align: center;
     width: 150px;
     color: #222222;
-    letter-spacing: 2px;
+    letter-spacing: -1px;
 }
  
 #description {
