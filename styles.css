@@ -16,6 +16,8 @@
             padding: 10px;
             font-size: 150%;
             background-color: #B7B7A4;
+            margin-left: -10px;
+            margin-right: -10px;
 }
 
         .navigation a{
