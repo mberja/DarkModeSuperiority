@@ -170,3 +170,18 @@ h2 span.spacer {
     overflow-x: hidden;
     word-wrap:break-word;
 }
+
+#footer {
+    background-color: #C2C2C2;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 90%;
+}
+
+.footer a:visited {
+    text-decoration: none;
+}
