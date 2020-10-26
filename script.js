@@ -1,6 +1,11 @@
 const BBTEA_PRICE = 5.00;
+var sum;
 var items = []
 var prices = []
+var formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  });
 function validates(quantity, fail_message)
 {
     if (Number.isInteger(Number(quantity))  && parseInt(quantity) > 0)
@@ -55,7 +60,7 @@ function add_to_cart()
         }
         prices.push(price);
 
-        document.getElementById("carted").innerHTML += "<h6> price:" +price + "</br> item:" + bubble_tea + " with " ;
+        document.getElementById("carted").innerHTML += "<h6> price:" +formatter.format(price) + "</br> item:" + bubble_tea + " with " ;
 
         if (topping_selection.length == 0)
         {
@@ -73,10 +78,19 @@ function add_to_cart()
     {
         alert("need to pick one!")
     }
-    var sum = prices.reduce(function(a, b){
+
+    sum = prices.reduce(function(a, b){
         return a + b;
     }, 0);
-    
-    document.getElementById("carted").innerHTML += "</br>curr price test :"+ sum;
+    document.getElementById("tax").innerHTML = "";
+    document.getElementById("total").innerHTML = "";
+    document.getElementById("subtotal").innerHTML =  formatter.format(sum);
+}
+function checkout()
+{
+    document.getElementById("tax").innerHTML = formatter.format(sum * .15);
+    document.getElementById("total").innerHTML = formatter.format(sum+sum * .15);
+
+
 }
 
