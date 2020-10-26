@@ -42,7 +42,7 @@ function add_to_cart()
         }
         var price;
         var quantity = document.getElementById("quantity").value;
-        quantity = validates(quantity, "please input a valid integer > 0 ")
+        quantity = validates(quantity, "please input a valid number of drinks (integer greater than 0!) ")
 
         if (quantity == -1)
         {
@@ -60,23 +60,24 @@ function add_to_cart()
         }
         prices.push(price);
 
-        document.getElementById("carted").innerHTML += "<h6> price:" +formatter.format(price) + "</br> item:" + bubble_tea + " with " ;
+        document.getElementById("carted").innerHTML += "<hr>";
+        document.getElementById("carted").innerHTML += "<h5><strong> price: </strong>" + formatter.format(price) + "<br><strong> item: </strong>" + bubble_tea + " with </h5>";
 
         if (topping_selection.length == 0)
         {
-            document.getElementById("carted").innerHTML +=  "no toppings";
+            document.getElementById("carted").innerHTML +=  "<h5 style = 'margin-top: -40px'> no toppings </h5>";
         }
         else
         {
             for (i = 0 ; i < topping_selection.length; i++)
             {
-                document.getElementById("carted").innerHTML += topping_selection[i] + " ";
+                document.getElementById("carted").innerHTML += "<h5 style = 'margin-top: -40px'>" + topping_selection[i] + " </h5>";
             }
         }
     }
     else
     {
-        alert("need to pick one!")
+        alert("please select a flavor!")
     }
 
     sum = prices.reduce(function(a, b){

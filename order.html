@@ -8,6 +8,18 @@
     <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png">
     <link type="text/css" rel="stylesheet" href="styles.css">
     <link type="text/css" rel="stylesheet" href="contact_styles.css">
+    
+    <style type = "text/css">
+        h5 {
+            font-weight: 200;
+            font-size:24px;
+        }
+        
+
+    
+    
+    
+    </style>
 
 
 </head>
@@ -53,14 +65,15 @@
                 <div class="column">
 
                     <!-- FLAVOR CHECKBOXES -->
-                    <h1>CHOOSE YOUR TEA FLAVOR</h1>
-                    <img src="thai%20milk%20tea.png" style="width: 5%"> 
-                    <input type="radio" style = "text-align: left;" id="boston_cares" name="flavor" value="BOSTON CARES - thai">
-                    <label for="bc">BOSTON CARES - thai</label><br><br>
+                    <h1>1. CHOOSE YOUR TEA FLAVOR</h1>
+                    <p style = "text-align: left;">
+                    <img src="thai%20milk%20tea.png" style="width: 5%;" "float: left;"> 
+                    <input type="radio" id="boston_cares" name="flavor" value="BOSTON CARES - thai">
+                    <label for="bc" >BOSTON CARES - thai</label><br><br>
                                 
                     <img src="milk%20tea.png" style="width: 5%"> 
                     <input type="radio" id="abcd" name="flavor" style = "text-align: left;" value="ACTION FOR BOSTON COMMUNITY DEVELOPMENT - classic">
-                    <label for="abcd">ACTION FOR BOSTON COMMUNITY DEVELOPMENT - classic</label><br><br>
+                    <label for="abcd">ACTION FOR BOSTON COMMUNITY DEVELOPMENT - classic</label> <br><br>
                     
                     <img src="taro.png" style="width: 5%"> 
                     <input type="radio" id="habitat" name="flavor" value="HABITAT FOR HUMANITY - taro">
@@ -77,10 +90,10 @@
 
                     <img src="mango%20milk%20tea.png" style="width: 5%"> 
                     <input type="radio" id="n_dev" name="flavor" value="THE NEIGHBORHOOD DEVELOPERS - mango">
-                    <label for="neighborhood">THE NEIGHBORHOOD DEVELOPERS - mango</label><br><br> 
+                    <label for="neighborhood">THE NEIGHBORHOOD DEVELOPERS - mango</label><br><br> </p>
                     
                     <br><br />
-                    <h1>TOPPINGS AVAILABLE</h1>
+                    <h1>2. CHOOSE TOPPINGS</h1>
                         <input type="checkbox" id="boba" name="boba" value="boba">
                         <label for="boba">boba</label>
                     
@@ -93,8 +106,9 @@
                         <input type="checkbox" id="egg_pudding" name="egg_pudding" value="egg_pudding">
                         <label for="egg_pudding">egg pudding</label><br><br /><br>
                     
+                    <p style = "text-align: left;">
                     <label for="quantity">how many of this order:</label>
-                    <input type="text" id="quantity" name="quantity"><br><br>
+                        <input type="text" id="quantity" name="quantity"><br><br></p>
                     
                     <input type="button" value="add to order" onclick = "add_to_cart()">
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -107,24 +121,23 @@
 
                     <!-- ADD TO CART -->
                     <h1>CART</h1>
-                    <div id = "carted">
-                        
+                    <div id = "carted" style = "text-align: left;">
                     </div>
                     <br><br /><br>
 
                     <input type="button" value="checkout" onclick = "checkout()">
                     <p><i>*please refer to the bottom to see your receipt.</i></p>
                     
-                    <br><br><br><hr><br><br><br>
+                    <br><br><br><hr><hr><hr><br><br><br>
                     
                     
                     <h2>ORDER SUMMARY</h2>
-                    subtotal - 
-                    <div id = "subtotal"></div> <hr>
-                    tax - <br />
-                    <div id = "tax"></div> <hr>
-                    total -
-                    <div id = "total"></div>
+                    <p style = "text-align: left;"> subtotal - </p>
+                    <div id = "subtotal"></div><br><hr><br>
+                    <p style = "text-align: left"> tax - </p>
+                    <div id = "tax"></div><br><hr><br>
+                    <p style = "text-align: left"> total - </p>
+                    <div id = "total"></div><br>
    
                 </div>
             </div>
