@@ -1,4 +1,7 @@
-        body {
+
+
+
+body {
             text-align: center; 
             font-family: 'Josefin Sans', sans-serif;
             margin-top: -50px;
@@ -51,6 +54,7 @@
             color: white;
             font-size: 20px;
             font-family: 'Josefin Sans', sans-serif;
+            src: "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Playfair+Display&display=swap";
 
         }
 
@@ -64,6 +68,7 @@
             margin-left: 0px;
             text-align: left;
             font-family: 'Josefin Sans', sans-serif;
+            src: "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Playfair+Display&display=swap";
   
         }
 
