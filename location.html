@@ -1,11 +1,41 @@
 <!DOCTYPE html> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Playfair+Display&display=swap" rel="stylesheet">
+
 <html>
 <head>
     <meta charset="UTF-8">
     <title>philanthrotea - locations</title>
     <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png"> 
     <link type="text/css" rel="stylesheet" href="styles.css">
-</head>
+    <link type="text/css" rel="stylesheet" href="location-style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+        $(function()) {
+          $("h2")
+            .wrapInner("<span>")
+        $("h2 br")
+            .before("<span class='spacer'>")
+            .after("<span class='spacer'>");
+
+        }
+        
+//        $(document).ready(function(){
+//            $("#button").click(function() {
+//               $("p").toggle(); 
+//            });
+//        });
+        
+        $(document).ready(function(){
+            $("#image").click(function() {
+               $("#container").toggle(); 
+            });
+        });
+                        
+    </script>
+    
+    </head>
     
 <body>
     
@@ -37,6 +67,32 @@
     
     <!-- main --> 
     <div id="main">
+    <h1> OUR LOCATIONS</h1>
+    <div class="image">
+<!--                <button><img src="images/MA.png" alt=""></button>-->
+      <img src="images/MA.png" alt="">
+        <h2><span class='spacer'>Massachusetts</span><br /></h2>
+        <p>hi</p>
+    </div>
+        
+    <div id="container">
+ 
+    <div id="location">
+    <div class="inside">
+    <div class="about1">
+    <div class="pic"><img src="http://static.tumblr.com/bfthosw/kXLn9c4gq/tumblr_mvinzgsdjm1qfaioqo1_500.jpg"></div>
+    <div class="city">Medford, MA</div>
+    </div>
+    <div class="about2">
+    <div class="gotoblog"><a href="/">location</a></div>
+    <div class="name">header</div>
+    <div id="description">
+    oh yea
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
     
     <!-- footer --> 
@@ -48,6 +104,7 @@
         |
         <br> &copy; mberja, web programming
         
-    </div>   
+    </div>
+    
 </body>
 </html>
