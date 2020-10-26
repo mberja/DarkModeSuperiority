@@ -8,33 +8,6 @@
     <link rel = "icon" type = "image/png" href = "condensed%20logo%20small-01.png"> 
     <link type="text/css" rel="stylesheet" href="styles.css">
     <link type="text/css" rel="stylesheet" href="location-style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-    <script>
-        $(function()) {
-          $("h2")
-            .wrapInner("<span>")
-        $("h2 br")
-            .before("<span class='spacer'>")
-            .after("<span class='spacer'>");
-
-        }
-        
-//        $(document).ready(function(){
-//            $("#button").click(function() {
-//               $("p").toggle(); 
-//            });
-//        });
-        
-        $(document).ready(function(){
-            $("#image").click(function() {
-               $("#container").toggle(); 
-            });
-        });
-                        
-    </script>
-    
     </head>
     
 <body>
@@ -68,26 +41,26 @@
     <!-- main --> 
     <div id="main">
     <h1> OUR LOCATIONS</h1>
-    <div class="image">
-<!--                <button><img src="images/MA.png" alt=""></button>-->
-      <img src="images/MA.png" alt="">
-        <h2><span class='spacer'>Massachusetts</span><br /></h2>
-        <p>hi</p>
-    </div>
+        
+        <!-- jquery aspect/image fade -->
+        <div class="image">
+        <a id ="button"><img src="images/MA.png" alt="">
+            <h2><span class='spacer'>Show MA locations</span></h2></a>
+        </div>
         
     <div id="container">
  
     <div id="location">
     <div class="inside">
     <div class="about1">
-    <div class="pic"><img src="images/MA.png"></div>
+    <div class="pic"><img src="images/Filler.jpg"></div>
     <div class="city">Medford, MA</div>
     </div>
     <div class="about2">
-    <div class="gotoblog"><a href="/">location</a></div>
-    <div class="name">header</div>
+    <div class="googlemap"><a href="https://www.google.com/maps/place/Harleston+Hall/@42.4035592,-71.1225827,17z/data=!3m1!4b1!4m5!3m4!1s0x89e376de2df46ab9:0x463201d555fcecf8!8m2!3d42.4035553!4d-71.1203887">Google Maps</a></div>
+    <div class="address">30 Lower Campus Rd, Somerville, MA 02144</div>
     <div id="description">
-    oh yea
+    Our founding location is location on Tufts University campus.
     </div>
     </div>
     </div>
@@ -95,16 +68,19 @@
     </div>
     </div>
     
-    <!-- footer --> 
-    <div id="footer">
-        |
-        <a href="default.html" style="color: black">Home</a> |
-        <a href="services.html" style="color: black">Services</a> |
-        <a href="contact.html" style="color: black">Contact Us</a> 
-        |
-        <br> &copy; mberja, web programming
-        
-    </div>
+<!-- footer --> 
+    <div id="footer">
+        |
+        <a href="default.html" style="color: black">Home</a> |
+        <a href="phil.html" style="color: black">About</a> |
+        <a href="menu.html" style="color: black">Menu</a> |
+        <a href="contact.html" style="color: black">Contact</a> 
+        |
+        <br> &copy; DMS, web programming
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="location-jquery.js"></script>
     
 </body>
 </html>
